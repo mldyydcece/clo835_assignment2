@@ -14,8 +14,8 @@ spec:
         app: mysql
     spec:
       containers:
-        - name: mysql-img
-          image: 132456686334.dkr.ecr.us-east-1.amazonaws.com/mysql-img:mysql_version_1
+        - name: myodico-mysql
+          image: 967243465572.dkr.ecr.us-east-1.amazonaws.com/myodico-mysql:mysql-v5.6
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: "12345"

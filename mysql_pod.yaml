@@ -7,8 +7,8 @@ metadata:
     app: mysql
 spec:
   containers:
-    - name: mysql-img   
-      image: 967243465572.dkr.ecr.us-east-1.amazonaws.com/myodico-dev-ecr-repo:mysql-v5.6
+    - name: myodico-mysql
+      image: 967243465572.dkr.ecr.us-east-1.amazonaws.com/myodico-mysql:mysql-v5.6
       env:
         - name: MYSQL_ROOT_PASSWORD
           value: "db_pass123"

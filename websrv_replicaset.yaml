@@ -19,11 +19,11 @@ spec:
         version: v1
     spec:
       containers:
-        - name: websrv-img
-          image: 132456686334.dkr.ecr.us-east-1.amazonaws.com/websrv-img:webserver_version_1
+        - name: myodico-webapp
+          image: 967243465572.dkr.ecr.us-east-1.amazonaws.com/myodico-webapp:application-v2.1
           env:
             - name: DBPWD
-              value: "12345"
+              value: "db_pass123"
             - name: DBUSER
               value: root
             - name: DBHOST
